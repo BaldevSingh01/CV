@@ -58,11 +58,13 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* Middle Container Styles */
+
 .middle-container {
-  background-color: #ffffff; /* White Background */
-  padding: 50px 20px; /* Increased padding */
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure at least the full height of the viewport */
 }
 
 .profile img {
