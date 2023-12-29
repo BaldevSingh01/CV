@@ -7,7 +7,7 @@ body, h1, h2, h3, p {
 /* Global Styles */
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #f0f0f0;
+  background-color: #f8f9fa; /* Light Gray Background */
   color: #333;
 }
 
@@ -44,24 +44,25 @@ body {
   transform: translateX(-50%);
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Sacramento', cursive;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em; /* Increased header size */
   margin-bottom: 10px;
 }
 
 h2 {
-  font-size: 2em;
-  margin-bottom: 30px;
+  font-size: 3em; /* Increased header size */
+  margin-bottom: 20px;
 }
 
 /* Middle Container Styles */
 .middle-container {
-  background-color: white;
-  padding: 50px 0;
+  background-color: #ffffff; /* White Background */
+  padding: 50px 20px; /* Increased padding */
+  text-align: center;
 }
 
 .profile img {
@@ -82,7 +83,7 @@ hr {
 
 /* Projects Container Styles */
 .projects h2 {
-  font-size: 2em;
+  font-size: 3em; /* Increased header size */
   margin-bottom: 30px;
 }
 
@@ -92,7 +93,7 @@ hr {
 
 /* Contact Me Container Styles */
 .contact-me h2, .contact-me h3 {
-  font-size: 2em;
+  font-size: 3em; /* Increased header size */
   margin-bottom: 20px;
 }
 
@@ -112,7 +113,7 @@ hr {
 
 /* Bottom Container Styles */
 .bottom-container {
-  background-color: #333;
+  background-color: #2c3e50; /* Darker Blue Background */
   color: white;
   padding: 20px 0;
   text-align: center;
