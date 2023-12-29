@@ -1,0 +1,135 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Top Container Styles */
+.top-container {
+  position: relative;
+  text-align: center;
+  padding: 80px 0;
+  background: linear-gradient(to bottom, #3498db, #2c3e50);
+  color: white;
+}
+
+.top-cloud, .bottom-cloud, .mountain {
+  position: absolute;
+}
+
+.top-cloud, .bottom-cloud {
+  width: 100%;
+}
+
+.bottom-cloud {
+  bottom: 0;
+}
+
+.mountain {
+  width: 80%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1, h2 {
+  font-family: 'Sacramento', cursive;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+/* Middle Container Styles */
+.middle-container {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.profile h2 {
+  margin-top: 20px;
+}
+
+hr {
+  margin: 40px 0;
+  border: 1px solid #ddd;
+}
+
+/* Projects Container Styles */
+.projects h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.project-row {
+  margin-bottom: 20px;
+}
+
+/* Contact Me Container Styles */
+.contact-me h2, .contact-me h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+/* Bottom Container Styles */
+.bottom-container {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-link {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-p {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
